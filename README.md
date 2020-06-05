@@ -10,3 +10,4 @@ O objetivo deste projeto, é desenvolver um projeto em realidade virtual de mont
 ## Integrantes
 * João Victor Simão
 * Matheus Eduardo Ishiyama
+* Renato J. P. Passos
