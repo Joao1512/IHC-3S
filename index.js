@@ -1,1 +1,25 @@
-import "https://aframe.io/releases/1.0.4/aframe.min.js";
+// id => botaoEscolhido
+window.onload = () => {
+  if (AFRAME.utils.device.isMobile() == false) { // DESKTOP
+        var el = document.getElementById("mycursor");
+        el.setAttribute('cursor', 'rayOrigin: mouse;fuse: false');
+    } else {
+        var el = document.getElementById("mycursor"); // MOBILE
+        el.setAttribute('cursor', 'rayOrigin: cursor;fuse: true');
+        el.object3D.visible = true;
+    }
+}
+
+//botao escolhido no html
+const botao = document.getElementById("botaoEscolhido");
+const porta = document.getElementById("peca1");
+
+// funcao botao ir para ir para direita
+function andarPraDireita() {
+  botao.object3D.rotation.y += 0.1;
+  porta.setAttribute('animation', 'property: position; dur: 2000; from: 0.6 0 1; to: 0 0 0 ;loop: false;'); 
+  
+}
+
+//adicionando evento de click, com a função andarParaDireita feita acima
+botao.addEventListener("click", andarPraDireita);
