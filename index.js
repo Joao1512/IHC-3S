@@ -19,12 +19,12 @@ console.log("1A: " + _1A)
 
 function mover1A() {
   console.log("1A")
-  _1A.setAttribute('animation', 'property: position; dur: 0; from: 2 0 7; to: -0.5 0.4 1 ;loop: false;'); 
+  _1A.setAttribute('animation', 'property: position; dur: 2000; from: 2 0 7; to: -0.5 0.4 1 ;loop: false;'); 
   
 }
 function mover1B() {
   console.log("1B")
-  _1B.setAttribute('animation','property: position; dur: 0; from: 3 0 7; to: -0.5 0.4 1 ;loop: false;'); 
+  _1B.setAttribute('animation','property: position; dur: 2000; from: 3 0 7; to: -0.5 0.4 1 ;loop: false;'); 
   
 }
 function mover2A() {
