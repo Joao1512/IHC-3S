@@ -439,46 +439,54 @@
         scale="3.22 0.99 1.36"
       ></a-gltf-model>
 
-      <!-- carregando os moedelos gltf -->
-      <a-gltf-model
-        id="peca1"
-        src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/1.2.gltf"
-        shadow="cast: true"
-        position="0 0 0"
-        rotation="0 0 0"
-        scale="1 1 1"
-      ></a-gltf-model>
-      <!--"shadow="cast: true" habilita sombra dinamica -->
-      <a-gltf-model
-        id="peca2"
-        src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/2.2.gltf"
-        position="0 0 0"
-        rotation="0 0 0"
-        scale="1 1 1"
-        visible="false"
-        shadow="cast: false"
-      ></a-gltf-model>
-      <!--"shadow="cast: true" habilita sombra dinamica -->
-      <a-gltf-model
-        id="peca3"
-        src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/3.2.gltf"
-        position="0 0 0"
-        rotation="0 0 0"
-        scale="1 1 1"
-        visible="false"
-        shadow="cast: false"
-      ></a-gltf-model>
-      <!--"shadow="cast: true" habilita sombra dinamica -->
-      <a-gltf-model
-        id="peca4"
-        src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/4.2.gltf"
-        position="0 0 0"
-        rotation="0 0 0"
-        scale="1 1 1"
-        visible="false"
-        shadow="cast: false"
-      ></a-gltf-model>
-      <!--"shadow="cast: true" habilita sombra dinamica -->
+      <!-- carregando os moedelos  -->
+
+      <a-assets>
+        <img id="texture" src="https://i.pinimg.com/originals/32/fb/b8/32fbb87331efc57fec8490799d12d428.jpg">
+      </a-assets>
+
+ 
+      <a-box
+      src="#texture"
+        id = "peca1"
+       depth="2"
+       height="4"
+       width="0.5"
+       position="1 0 0"
+       rotation="0 0 0"
+      ></a-box>
+
+		 
+		  <a-entity id="base" 
+		            material=""
+		            geometry=""
+		            obj-model="obj: #base-obj; mtl: #base-mtl"
+		            scale="2 2 2"
+		            position="0 1 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		 <a-entity id="item_a" 
+		            obj-model="obj: #a-obj; mtl: #a-mtl"
+		            scale="2 2 2"
+		            position="6.5 0.5 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+		  
+		  <a-entity id="item_b" 
+		            obj-model="obj: #b-obj; mtl: #b-mtl"
+		            scale="2 2 2"
+		            position="5.5 0.5 -3"
+		            rotation="0 0 0"
+		  ></a-entity>
+ 
+		  
+		  <a-entity id="helice" 
+		            obj-model="obj: #helice-obj; mtl: #helice-mtl"
+		            scale="2 2 2"
+		            position="5 0.5 -4"
+		            rotation="0 0 0"
+		  ></a-entity>
 
       <!-- PEÇAS PARA O TABLADO 2 -->
 
