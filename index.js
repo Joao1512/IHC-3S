@@ -11,8 +11,10 @@ window.onload = () => {
 }
 
 //botao escolhido no html
-const botao = document.getElementById("botaoEscolhido");
-const porta = document.getElementById("peca1");
+const _1A = document.getElementById("1A");
+const _1B = document.getElementById("1B");
+const _2A = document.getElementById("2A");
+const _2B = document.getElementById("2B");
 
 // funcao botao ir para ir para direita
 function andarPraDireita() {
