@@ -18,3 +18,4 @@ Blender: programa para modelagem, animação, texturização, composição, rend
 |:-----------:|:-----------------:|
 |João Victor Simão|49600781893| 
 |Renato Junqueira Pedras Passos|1460481911070|
+|Lucas Rafael Andrade|1460481911050|
