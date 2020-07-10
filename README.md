@@ -16,5 +16,5 @@ Blender: programa para modelagem, animação, texturização, composição, rend
 ## Integrantes Turma B
 |Registro do Aluno | Aluno |
 |:-----------:|:-----------------:|
-|[João Victor Simão]|49600781893 | 
-|[Renato Junqueira]|49600781893:|
+|João Victor Simão|49600781893| 
+|Renato Junqueira|49600781893|
