@@ -15,26 +15,22 @@ const _1B = document.getElementById("1B");
 const _2A = document.getElementById("2A");
 const _2B = document.getElementById("2B");
 
-console.log("1A: " + _1A)
 
 function mover1A() {
-  console.log("1A")
-  _1A.setAttribute('animation', 'property: position; dur: 2000; from: 2 0 7; to: -0.5 0.4 1 ;loop: false;'); 
+  _1A.setAttribute('animation', 'property: position; dur: 2000; from: -7 4 7.7; to: -0.5 0.4 1 ;loop: false;'); 
   
 }
 function mover1B() {
   console.log("1B")
-  _1B.setAttribute('animation','property: position; dur: 2000; from: 3 0 7; to: -0.5 0.4 1 ;loop: false;'); 
+  _1B.setAttribute('animation','property: position; dur: 2000; from: 13 0 7; to: -0.5 0.4 1 ;loop: false;'); 
   
 }
 function mover2A() {
-  console.log("2A")
-  _2A.setAttribute('animation', 'property: position; dur: 2000; from: 4 0 3; to: -0.5 0.4 0 ;loop: false;'); 
+  _2A.setAttribute('animation', 'property: position; dur: 2000; from: 14 0 0; to: -0.5 0.4 0 ;loop: false;'); 
   
 }
 function mover2B() {
-  console.log("2B")
-  _2B.setAttribute('animation', 'property: position; dur: 2000; from: 3 -1.4 3; to: -0.5 0.4 0 ;loop: false;'); 
+  _2B.setAttribute('animation', 'property: position; dur: 2000; from: 5.2 -1.3 -1.5; to: -0.5 0.4 0 ;loop: false;'); 
   
 }
 

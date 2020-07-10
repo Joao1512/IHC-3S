@@ -252,6 +252,21 @@
       ></a-entity>
 
       <!--========================================================================================================== -->
+      <!--painel de texto -->
+      
+      <a-text id="painel-info" 
+      value="Encontre as 4 pecas \n escondidas ->" 
+      align="center"
+      color="#FFFFFF"
+      align="center" 
+      anchor="center"
+      wrap-count="60"
+      visible="true" 
+      position=" -3  2.5 -2.3 "
+      scale="1.7 1.89 0"
+      geometry="primitive: plane; 
+                width: 1.75"
+      material="color: #795548"></a-text>
 
       <!-- IMAGENS -->
       <!-- carregando imagens que estão sendo usadas na quadro de fundo -->
@@ -375,30 +390,8 @@
 		            material=""
 		            geometry=""
 		            obj-model="obj: #base-obj; mtl: #base-mtl"
-		            scale="2 2 2"
-		            position="0 1 -3"
-		            rotation="0 0 0"
-		  ></a-entity>
-		  
-		 <a-entity id="item_a" 
-		            obj-model="obj: #a-obj; mtl: #a-mtl"
-		            scale="2 2 2"
-		            position="6.5 0.5 -3"
-		            rotation="0 0 0"
-		  ></a-entity>
-		  
-		  <a-entity id="item_b" 
-		            obj-model="obj: #b-obj; mtl: #b-mtl"
-		            scale="2 2 2"
-		            position="5.5 0.5 -3"
-		            rotation="0 0 0"
-		  ></a-entity>
- 
-		  
-		  <a-entity id="helice" 
-		            obj-model="obj: #helice-obj; mtl: #helice-mtl"
-		            scale="2 2 2"
-		            position="5 0.5 -4"
+		            scale="2 2 3"
+		            position="11 1 0"
 		            rotation="0 0 0"
 		  ></a-entity>
 
@@ -482,11 +475,7 @@
         shadow="cast: true;"
         position="0 0.1 0"
       ></a-gltf-model>
-      <a-gltf-model
-        src="#tablado"
-        shadow="cast: false;"
-        position="10 0.1 0"
-      ></a-gltf-model>
+      
       <!-- TABLADO 2-->
       <a-gltf-model
         src="#hangar"
@@ -508,7 +497,7 @@
       <a-gltf-model
         id="trolley"
         src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/trolley.01.gltf"
-        position="0 0.1 0"
+        position="0 0.1 1.3"
         rotation="0 0 0"
         scale="1 1 1"
         visible="true"
@@ -518,7 +507,7 @@
       <a-gltf-model
         id="portatrolley"
         src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/PORTAtrolley.01.gltf"
-        position="0 0.1 0"
+        position="0 0.1 1.3"
         rotation="0 0 0"
         scale="1 1 1"
         visible="true"
@@ -532,19 +521,11 @@
         shadow="cast: false"
       ></a-gltf-model>
 
-      <a-gltf-model
-        id="moldura2"
-        src="https://raw.githubusercontent.com/KurtRodrigues/Project01/master/modelos%203D%20Porta%20avi%C3%A3o/moldura-1.gltf"
-        visible="true"
-        position="10.826 0 0"
-        shadow="cast: false"
-      ></a-gltf-model>
-
     <a-gltf-model
     id="1A"
     src="https://raw.githubusercontent.com/Joao1512/IHC-3S/master/objects/1A.gltf"
     visible=""
-    position=" 2 0 7"
+    position=" -7 4 7.7"
     shadow="cast: false"
     scale="0.5 0.5 0.5"
     rotation = " 0 -70 0"
@@ -560,7 +541,7 @@
     id="1B"
     src="https://raw.githubusercontent.com/Joao1512/IHC-3S/master/objects/1B.gltf"
     visible=""
-    position="3 0 7 "
+    position="13 0 7 "
     shadow="cast: false"
     scale="0.5 0.5 0.5"
     rotation = " 0 -70 0"
@@ -576,7 +557,7 @@
     id="2A"
     src="https://raw.githubusercontent.com/Joao1512/IHC-3S/master/objects/2A.gltf"
     visible=""
-    position="4 0 3"
+    position="14 0 0"
     shadow="cast: false"
     scale="0.5 0.5 0.5"
     rotation = " 0 -70 0"
@@ -592,7 +573,7 @@
     id="2B"
     src="https://raw.githubusercontent.com/Joao1512/IHC-3S/master/objects/2B.gltf"
     visible=""
-    position=" 3 -1.4 3 "
+    position=" 5.2 -1.3 -1.5 "
     shadow="cast: false"
     scale="0.5 0.5 0.5"
     rotation = " 0 -70 0"
